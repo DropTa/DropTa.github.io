@@ -1,0 +1,110 @@
+/*Selector {
+	Property: value;
+}*/
+* {
+	text-align: right;
+	text-transform: capitalize;
+}
+body{
+	background-image:url(backgroungimage.jpg);
+	background-size:  cover;
+}
+h1,p {
+	color:#AA4139;
+	text-align: center;
+	border: 5px dashed rgba(255,176,170,0.5);
+	cursor: pointer;
+	font: 
+
+}
+p {
+	color: pink !important;  /*important overrides any other tag*/
+}
+p {
+	color:green;
+	text-decoration: : line-through;
+	text-transform: uppercase;
+	line-height: 20px; 
+	font-style: italic;
+	font-weight: bold;
+	font-size: 150%;
+	font-family: "Times New Roman",Georgia; /*If not Times New Roman is available, use Georgia.  'Poiret One', cursive*/
+}
+li {
+	list-style: none;
+	display: inline-block;
+}
+.webtext:last-child {
+	border: 5px dashed green;
+}
+.webtext:first-child {
+	border: 5px dashed green;
+}
+.active {
+	border: 5px dashed green;
+}
+#div1 {
+	background: blue;
+}
+	#div2 {
+		background: red;
+	}
+	/*select all p's that are inside of h2--element element*/
+	h2 p {
+	color:#AA4139;
+	text-align: center;
+	border: 5px dashed rgba(255,176,170,0.5);
+	cursor: pointer;
+
+}
+	/*floats the picture to the left with the text wrapped around it*/
+	img {
+		float:left;
+	}
+	footer {
+		clear; both;
+		text-align: center;
+	}
+	/*select any p's that is after the h2 element--element + element*/
+h2 + p {
+	color:#AA4139;
+	text-align: center;
+	border: 5px dashed rgba(255,176,170,0.5);
+	cursor: pointer;
+
+}
+	/*select any p's that is a parent of the h2 element--element + element*/
+h2 >  p {
+	color:#AA4139;
+	text-align: center;
+	border: 5px dashed rgba(255,176,170,0.5);
+	cursor: pointer;
+	color:;
+
+}
+/*specificity:how specific is your selector--more detailed = higher specificity.  more specific, the more likely it will win out*/
+/*specificity calculator--google--inline styles is the highest--puting a style inside a section tag*/
+/*Importance: !important--depends on what type of style the cascade gets*/
+/*source order:  link order--last style sheet wins out*/
+.boxmodel {
+	border: 5px; color: red; 
+	display: inline-block;
+	padding: -10px;
+	padding: 50px 20px 5px 20px; /*top right bottom left*/
+	margin:  0px 20px;/*create space outside the border--this also means top right bottom left with only these two figures*/;
+	width: 33px;
+ height: 55px;
+	}
+	span {
+		font-size: 5rem; 
+	}
+	.btn-danger {
+		background-color: orange;
+	}
+.btn-danger:hover {
+	background-color: : black;
+}
+.col {
+	background-color: grey;
+	border:2px solid black;
+}
